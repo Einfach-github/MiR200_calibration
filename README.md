@@ -6,5 +6,20 @@ Some codes are partly modified in terms of the original matchRos codes. Some cod
 
 ### Codes list (modified on the original matchRos codes)
 ```
-diffdrive_controller.yaml in package `mir_description/config`
+'diffdrive_controller.yaml' in folder 'mir_description/config'
+'mir.urdf.xacro' in folder 'mir_description/urdf'
+'mir_empty_world.launch' in folder 'mir_gazebo/launch/includes'
+'nav_start.launch' in folder 'mir_navigation/launch'
+'start_maps.launch' in folder 'mir_navigation/launch'
+'start_planner.launch' in folder 'mir_navigation/launch'
+```
+
+### Codes list (newly added in contrast to the original matchRod codes)
+```
+The whole package 'diff_drive_controller_calibration'
+'mir_200_v1_calibration.urdf.xacro' in folder 'mir_description/urdf/include'
+'empty_map_calibration.yaml' in folder 'mir_gazebo/maps/world'
+'empty_map_calibration.pgm' in folder 'mir_gazebo/maps/world'
+The whole folder 'calibration' in folder 'mir_navigation/nodes'
+'navigation_calibration.rviz' in folder 'mir_navigation/rviz'
 ```
