@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="gui" default="true" />
+
+  <include file="$(find mir_gazebo)/launch/mir_empty_world.launch">
+    <arg name="gui" value="$(arg gui)" />
+  </include>
+  
+</launch>
