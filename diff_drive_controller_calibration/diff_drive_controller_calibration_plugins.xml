@@ -1,0 +1,9 @@
+<library path="lib/libdiff_drive_controller_calibration">
+
+  <class name="diff_drive_controller_calibration/DiffDriveControllerCalibration" type="diff_drive_controller_calibration::DiffDriveControllerCalibration" base_class_type="controller_interface::ControllerBase">
+    <description>
+      The DiffDriveControllerCalibration tracks velocity commands. It expects 2 VelocityJointInterface type of hardware interfaces.
+    </description>
+  </class>
+
+</library>
