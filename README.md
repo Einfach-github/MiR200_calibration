@@ -1,2 +1,2 @@
-# MiR200_calibration
-Codes are aimed to calibrate the systematic odometry errors for MiR200
+# 1. Repository description
+`MiR200_calibration`: aaa
